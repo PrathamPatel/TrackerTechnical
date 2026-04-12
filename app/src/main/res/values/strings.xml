@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TrackerTechnical</string>
+    <string name="shipments">Shipments</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="shipments_empty_no_shipments_to_display">Shipments empty. No shipments to display.</string>
+    <string name="refresh_failed_showing_cached_data">Refresh failed. Showing cached data.</string>
+    <string name="could_not_refresh_showing_saved_data">Couldn\'t refresh. Showing saved data.</string>
+    <string name="offline_showing_saved_data">You\'re offline. Showing saved data.</string>
+    <string name="no_cached_shipments">No cached shipments are available yet. Connect to the internet and try again.</string>
+    <string name="failed_to_refresh_shipments">Failed to refresh shipments. Please try again.</string>
+    <string name="something_unusual_has_occurred">Something unusual has occurred. Please try again later.</string>
+    <string name="error_unknown">Unknown</string>
+    <string name="error_title">Error</string>
+    <string name="retry">Retry</string>
+    <string name="last_updated">Last updated: %s</string>
+    <string name="shipment_detail_title">Shipment details</string>
+    <string name="back">Back</string>
+    <string name="tracking_number_label">Tracking number</string>
+    <string name="origin_label">Origin</string>
+    <string name="destination_label">Destination</string>
+    <string name="estimated_delivery_label">Estimated delivery</string>
+    <string name="status_history_title">Status history</string>
+    <string name="status_history_empty">No status updates are available for this shipment yet.</string>
+    <string name="shipment_detail_partial_timeline">Full history isn\'t available. Showing the last known status from your saved shipments.</string>
+    <string name="shipment_detail_load_error">Could not load this shipment. Check your connection and try again.</string>
+</resources>
