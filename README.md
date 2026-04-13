@@ -40,6 +40,12 @@ This project uses a hosted mock REST/JSON endpoint for shipment data.
 
 For this project [Beeceptor](https://beeceptor.com/) was used to set up the mock API.
 
+The screenshots below show the hosted endpoint (`https://shipping-test.free.beeceptor.com`) receiving successful `GET /shipments` and `GET /shipments/{id}` calls from the app (for example `shp_1001`, `shp_1002`, `shp_1003`).
+
+![Beeceptor request log: list and detail shipment endpoints](docs/images/beeceptor-mock-api-1.png)
+
+![Beeceptor dashboard: mock API traffic for shipping endpoints](docs/images/beeceptor-mock-api-2.png)
+
 Please note that a daily limit of **only 50 requests** is allowed on the free tier.
 
 If the endpoint is unavailable or you want to test with your own data:

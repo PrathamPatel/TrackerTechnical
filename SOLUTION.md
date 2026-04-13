@@ -88,6 +88,7 @@ To keep the take-home focused, I chose:
 - cache replacement on successful list refresh instead of partial merging
 - detail timeline not persisted in Room - full history requires a successful detail request or Beeceptor rules for each id; otherwise the user sees cached-summary fallback. Beeceptor on a free version only allows for a max 3 rules. Hence, only shp_1001 and shp_1002 are added to the Mock API.
 - focused unit tests rather than broader integration/UI coverage
+- Since I went slightly over the 4-hour mark, I skipped the filtering and sorting optional tasks
 
 If this were production code, I would add:
 
