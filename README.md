@@ -40,7 +40,7 @@ This project uses a hosted mock REST/JSON endpoint for shipment data.
 
 For this project [Beeceptor](https://beeceptor.com/) was used to set up the mock API.
 
-The screenshots below show example Beeceptor configuration for `https://shipping-test.free.beeceptor.com`: **Mock Rules** for `GET /shipments` and per-id detail routes, and the **request log** showing successful `GET /shipments` and `GET /shipments/{id}` calls from the app (for example `shp_1001`, `shp_1002`, `shp_1003`).
+The screenshots below show example Beeceptor configuration for `https://shipping-test.free.beeceptor.com`: **Mock Rules** for `GET /shipments` and per-id detail routes, and the **request log** showing successful `GET /shipments` and `GET /shipments/{id}` calls from the app (for example `shp_1001`, `shp_1002`).
 
 ![Beeceptor Mock Rules: list and per-shipment GET endpoints](docs/images/beeceptor-mock-api-1.png)
 
